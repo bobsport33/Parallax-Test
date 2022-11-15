@@ -1,0 +1,40 @@
+html {
+    height: 4000px;
+}
+
+body {
+    background-color: rgb(109, 84, 53);
+}
+
+.container {
+    position: relative;
+}
+
+.bone-container {
+    height: 4000px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.bone {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+}
+
+.fixed-container {
+    height: 300px;
+    width: 100%;
+
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.benny {
+    height: 100%;
+    margin: 0 auto;
+    z-index: 10;
+}
