@@ -33,6 +33,11 @@ body {
     align-items: center;
 }
 
+.fixed-container--background {
+    background-color: black;
+    padding: 100px 0;
+}
+
 .benny {
     height: 100%;
     margin: 0 auto;
